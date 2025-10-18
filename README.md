@@ -288,35 +288,6 @@ class MachineUnlearner:
 
 ---
 
-## Project Structure
-
-```
-codeguard-ai/
-├── codeguard_ai.ipynb          # Main notebook
-├── requirements.txt            # Dependencies
-├── README.md                   # Documentation
-├── LICENSE                     # MIT License
-├── models/
-│   ├── code_quality_model.h5   # Trained model
-│   ├── scaler.pkl              # Feature scaler
-│   └── feature_columns.json    # Configuration
-├── data/
-│   └── sample_dataset.csv      # Example data
-├── examples/
-│   ├── single_file_analysis.py
-│   ├── batch_analysis.py
-│   └── unlearning_demo.py
-├── docs/
-│   ├── API.md
-│   ├── DEPLOYMENT.md
-│   └── TRAINING.md
-└── tests/
-    ├── test_model.py
-    └── test_analyzer.py
-```
-
----
-
 ## Technologies
 
 **Deep Learning & ML**
